@@ -7,27 +7,26 @@ end
 
 
 def batch_badge_creator(array)
-  newarray = []
+  new_array = []
   array.each do |name|
-    newarray.push("Hello, my name is #{name}.")
+    new_array.push("Hello, my name is #{name}.")
   end
-  return newarray
+  return new_array
 end
 
 
 
 
 def assign_rooms(array)
-  newarray = []
+  new_array = []
   counter = 1
   array.each do |name|
-    newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return nuarray
+  return new_array
 end
 
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|
