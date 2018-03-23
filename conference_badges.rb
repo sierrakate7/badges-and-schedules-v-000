@@ -1,1 +1,1 @@
-speakers = 
+speakers = ["Edsger","Ada","Charles",]
